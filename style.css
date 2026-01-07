@@ -1,0 +1,198 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Barre de navigation */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    background-color: lab(31.7% -13.35 9.7); 
+    margin: 0;
+    padding: 15px 30px;
+}
+
+
+.navbar li {
+    margin-left: 50px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar li a:hover {
+    color: hwb(110 71% 20%);
+    text-decoration: underline;
+    text-underline-offset: 17px;
+    
+}
+
+.navbar li a.active {
+   color: hwb(109 67% 22%);
+    text-decoration: underline;
+    text-underline-offset: 17px; 
+}
+
+/*Accueil portfolio*/
+.accueil {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.accueil h1 {
+    font-size: 48px;
+    margin: 0;
+    color: hsl(109, 8%, 26%);
+}
+
+.accueil h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: normal;
+        color: hwb(108 35% 59%);
+
+}
+
+.accueil h3 {
+    font-size: 16px;
+        color: lab(49.21% -4.46 4.04);
+    font-weight: normal;
+}
+
+
+/*CV*/
+.contenu {
+    padding-top: 40px;
+}
+
+.formation {
+    margin-left: 50px;
+
+}
+
+.forma {
+
+  margin-left: 50px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    color: hwb(0 24% 76%);
+
+}
+
+
+
+.formation h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.formation p {
+    margin: 0 0 10px 0;
+    font-style: italic;
+    color: #555;
+}
+
+.formation ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #444;
+}
+
+
+
+/*footer*/
+
+footer {
+    background-color: #1f2420; 
+    padding: 20px 30px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+
+footer h2 {
+    margin: 0 0 15px 0;
+    font-size: 20px;
+    color: white;
+    font-weight: 100; 
+    font-family: Arial, sans-serif; 
+}
+
+
+
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav li,
+.footer-nav li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.footer-nav:hover {
+    font-weight: bold ;
+    font-family: Arial, sans-serif;
+
+ }
+
+/*certif*/
+
+.certif  {
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    color: #333;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.cer  {
+
+   
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: oklab(31.317% 0 -0.00004);
+}
+
+
+.pdf {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: hwb(0 33% 67%);
+    
+}
