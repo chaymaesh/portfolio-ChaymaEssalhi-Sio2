@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+
+<nav>
     <ul class="navbar">
         <li><a href="portefolio.html">Accueil</a></li>
         <li><a href="CV.html" class="active">CV</a></li>
-        <li><a href="experience.html">Expériences</a></li>
         <li><a href="projet.html">Projets</a></li>
         <li><a href="veille.html">Veille technologique</a></li>
         <li><a href="certif.html">Certifications</a></li>
@@ -24,7 +24,7 @@
     <h2 class="forma">Formations</h2>
 
     <div class="formation">
-        <h3>BTS Services Informatiques aux Organisations (1ère année)</h3>
+        <h3>BTS Services Informatiques aux Organisations SLAM (2ère année)</h3>
         <p>Lycée Louis Pergaud, Besançon</p>
     </div>
 
@@ -49,6 +49,14 @@
 
 <section id="experiences">
     <h2 class="forma">Expériences professionnelles</h2>
+
+       <div class="formation">
+        <h3>Stage informatique (mai 2026-juin 2026), </h3>
+        <p>UTBM, Belfort </p>
+         <ul>
+            <li>Conception et développement d’un site web dédié à un projet institutionnel</li>
+        </ul>
+    </div>
 
     <div class="formation">
         <h3>Agent de nettoyage (décembre 2024 – juin 2025, CDD)</h3>
@@ -80,10 +88,21 @@
 
     <div class="formation">
         <ul>
-            <li>Bases en SQL</li>
-            <li>Bases en programmation : HTML5, CSS3, PHP</li>
-            <li>Adressage IP</li>
-            <li>Compétences en bureautique (Microsoft Office)</li>
+            <li>Base de données :</li>
+                <ul>
+                    <li>Langages : SQL, PL/SQL</li>
+                    <li>Serveur : MySQL/MariaDb, SQLServer </li>
+                </ul>
+
+            <li>Développement logiciel :</li>
+                <ul>
+                    <li>Développement Web : PHP 8, HTML5, CSS3, Symfony 6, Twig, Doctrine, React, React Native, Bootstrap JS</li>
+                    <li>Architecture MVC et développement objet </li>
+                     <li>Solution de contrôle de version : GIT</li>
+                    <li>Cybersécurité appliquée aux développements web </li>
+                </ul>
+            <li>Outils de développement : Méthode UML, Méthode Merise (Modélisation base de données), Programmation objet</li>
+            <li>Logiciels de bureautique : MS Office (Word, Excel, Powerpoint), LibreOffice</li>
         </ul>
     </div>
 </section>
@@ -122,14 +141,36 @@
             <li>Lecture</li>
         </ul>
     </div>
+
+<a href="info.pdf" download class="download-btn">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/>
+    </svg>
+    Télécharger mon CV (PDF)
+</a>
+
 </section>
 
-<footer>
-    <h2>CONTACT</h2>
+<footer class="site-footer">
+    <h2>Me contacter</h2>
+
+
     <ul class="footer-nav">
-        <li>chayma.essalhi90@gmail.com</li>
-     
+        <li>
+            <span>Email :</span>
+            <a href="mailto:chayma.essalhi90@gmail.com">chayma.essalhi90@gmail.com</a>
+        </li>
+        <li>
+            <span>Téléphone :</span>
+            <a href="tel:+33600000000">06 00 00 00 00</a>
+        </li>
+        <li>
+            <span>LinkedIn :</span>
+            <a href="https://fr.linkedin.com/in/chayma-essalhi-210278319">Mon profil</a>
+        </li>
     </ul>
+
+    <p class="copyright">© 2026 — Chayma Essalhi</p>
 </footer>
 
 </body>
